@@ -1,7 +1,7 @@
 def anagramStrings(string1,string2):
     chars = []
     for i in string1.lower():
-        if i not in string2:
+        if i not in string2.lower():
             print("strings are not anagram")
             break
         else:
@@ -13,4 +13,3 @@ def anagramStrings(string1,string2):
 string1 = "abcde"
 string2 = "bcaed"
 anagramStrings(string1,string2)
-#print(checkAnagram)
