@@ -2,7 +2,6 @@
 
 
 import random
-from traceback import print_tb
 #check with sort
 def secondLargest(myList):
     print(myList)
@@ -27,6 +26,7 @@ def secondLargEl(mylist2):
             second_largest = i
     return second_largest
     # largestIDx=myList2.index(largest)
+
     # return myList2.pop(largestIDx)
     
 
