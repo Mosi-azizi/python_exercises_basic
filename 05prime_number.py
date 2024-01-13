@@ -14,3 +14,4 @@ def checkPrime(number):
 number = int(input("Enter a number : "))
 checkPrime(number)
 
+
